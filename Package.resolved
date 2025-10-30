@@ -1,0 +1,24 @@
+{
+  "originHash" : "90728d273f76adfb8f4d7635e3fafa9a40f33e5e993e3766084e20290f344a2b",
+  "pins" : [
+    {
+      "identity" : "fdb-swift-bindings",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/foundationdb/fdb-swift-bindings.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7d73b6b673ca927a1ed3f4465695ccb7c8e919e0"
+      }
+    },
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "ce592ae52f982c847a4efc0dd881cc9eb32d29f2",
+        "version" : "1.6.4"
+      }
+    }
+  ],
+  "version" : 3
+}
