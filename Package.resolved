@@ -1,6 +1,24 @@
 {
-  "originHash" : "90728d273f76adfb8f4d7635e3fafa9a40f33e5e993e3766084e20290f344a2b",
+  "originHash" : "0a67bcf7a8f881e999f161d920b0eb82cbeb96914d1cb0cca3209874e8cd9bc5",
   "pins" : [
+    {
+      "identity" : "fdb-embedding-layer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/1amageek/fdb-embedding-layer.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "07e886f9e9a023bdb89f572b6b0246684bdcaf1b"
+      }
+    },
+    {
+      "identity" : "fdb-ontology-layer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/1amageek/fdb-ontology-layer.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "098ac34b23289b350412d84e884bd36c35dbc5b4"
+      }
+    },
     {
       "identity" : "fdb-swift-bindings",
       "kind" : "remoteSourceControl",
@@ -8,6 +26,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "7d73b6b673ca927a1ed3f4465695ccb7c8e919e0"
+      }
+    },
+    {
+      "identity" : "fdb-triple-layer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/1amageek/fdb-triple-layer.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "51de0bf2add7465c9661626983eb01c1fc74591b"
       }
     },
     {

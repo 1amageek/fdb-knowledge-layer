@@ -15,10 +15,10 @@ let package = Package(
         )
     ],
     dependencies: [
-        // Sub-layer dependencies (local paths for development)
-        .package(path: "../fdb-triple-layer"),
-        .package(path: "../fdb-ontology-layer"),
-        .package(path: "../fdb-embedding-layer"),
+        // Sub-layer dependencies
+        .package(url: "https://github.com/1amageek/fdb-triple-layer.git", branch: "main"),
+        .package(url: "https://github.com/1amageek/fdb-ontology-layer.git", branch: "main"),
+        .package(url: "https://github.com/1amageek/fdb-embedding-layer.git", branch: "main"),
 
         // Direct dependencies
         .package(url: "https://github.com/apple/swift-log.git", from: "1.0.0"),
